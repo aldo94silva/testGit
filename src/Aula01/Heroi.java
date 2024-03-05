@@ -7,16 +7,22 @@ public class Heroi {
     int vida = 100;
     public int forca;
 
-//    Métodos da classe Heroi
-    public void atacar(Heroi alvo){
+    //    Métodos da classe Heroi
+    // Hero
+    public void atacar(Heroi alvo) {
         alvo.vida -= this.forca; // this = essa/dessa
-        System.out.println(this.nome + " ataca "  + alvo.nome + "e causa "
-        + this.forca + " de dano" + " e fica com " + (this.forca-alvo.forca) + " de força");
+        System.out.println(this.nome + " ataca " + alvo.nome + "e causa "
+                + this.forca + " de dano" + " e fica com " + (this.forca - alvo.forca) + " de força");
     }
 
-    public void curar(Heroi curou){
+    public void curar(Heroi curou) {
         this.vida += 20;
+
+        if (this.vida > 100){
+
+        }
         System.out.println(this.nome + " se cura e agora tem " + this.vida +
                 " de vida");
     }
+
 }

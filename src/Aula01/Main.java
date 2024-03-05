@@ -1,5 +1,4 @@
-import Aula01.Heroi;
-import Aula01.Mago;
+package Aula01;
 
 public class Main {
     public static void main(String[] args) {
@@ -26,3 +25,4 @@ public class Main {
 
     }
 }
+
