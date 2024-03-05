@@ -4,9 +4,9 @@ public class Mago extends Heroi{
 
     public void lancarMagia(Heroi alvo) {
 
-        alvo.vida -= 15;
+        alvo.vida -= this.forca;
         System.out.println(this.nome + " lança uma Magia em " + alvo.nome +
-                " causando 20 de dano");
+                " e causou " + this.forca + " de dano");
     }
 
     public void aBatalha(Heroi alvo) {
