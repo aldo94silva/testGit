@@ -1,5 +1,5 @@
-import Aula01.Heroi;
-import Aula01.Mago;
+import heroiMago.Heroi;
+import heroiMago.Mago;
 
 public class Main {
     public static void main(String[] args) {

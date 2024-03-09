@@ -1,4 +1,4 @@
-package Aula01;
+package heroiMago;
 
 public class Heroi {
 
